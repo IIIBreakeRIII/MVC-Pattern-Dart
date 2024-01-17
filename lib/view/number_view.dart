@@ -35,6 +35,11 @@ class _NumberViewState extends StateMVC<NumberView> {
                     numberController.decrementNum();
                   },
                   child: const Text('감소')),
+              ElevatedButton(
+                  onPressed: () {
+                    numberController.resetNum();
+                  },
+                  child: const Text('초기화')),
             ],
           ),
         ),

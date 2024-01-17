@@ -5,4 +5,5 @@ class Number {
 
   int increment() => ++_num;
   int decrement() => --_num;
+  int reset() => _num = 0;
 }
