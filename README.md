@@ -1,16 +1,10 @@
-# mvc_exercise
+## Design Pattern : MVC Pattern
 
-A new Flutter project.
+> Wikipedia에 따르면,<br>
+> **Model-View-Controller는 소프트웨어 공학에서 사용되는 소프트웨어 디자인 패턴이다. 이 패턴을 성공적으로 사용하면, 사용자 인터페이스로부터 비즈니스 로직을 분리하여 애플리케이션의 시각적 요소나 그 이면에서 실행되는 비즈니스 로직을 서로 영향 없이 쉽게 고칠 수 있는 애플리케이션을 만들 수 있다.**<br>
+> 고 기술되어있다.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+시작하기에 앞서, MVC 패턴을 다음과 같은 그림으로 표현할 수 있다.
+<br><br>
+![MVC](https://github.com/IIIBreakeRIII/IIIBreakeRIII.github.io/assets/89850286/3b081d88-49a0-4a3b-aab3-47c50a66acb7)
+<br><br>
