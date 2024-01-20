@@ -72,9 +72,13 @@ MVC 패턴은 5가지의 규칙에 의해 설계되어야 한다. 해당하는 5
 <h4>2.4. Controller는 Model과 View에 의존해도 된다.</h4>
 <h4>2.5. View가 Model로부터 데이터를 받을 때, 반드시 Controller를 통해서 받아야 한다.</h4>
 
-<h3>. Reference</h3>
+<h3>3. Reference</h3>
  - [MVC Pattern](https://junhyunny.github.io/information/design-pattern/mvc-pattern/)
+ <br>
  - [[Flutter] MVC 디자인 패턴](https://velog.io/@hodu_angel/Flutter-MVC-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)
+ <br>
  - [mdn web docs, MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+ <br>
  - [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+ <br>
  - [MVC 패턴이 지켜지는 5가지 규칙](https://hyeon9mak.github.io/5-rules-for-MVC-pattern/)
