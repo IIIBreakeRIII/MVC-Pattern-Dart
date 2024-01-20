@@ -14,7 +14,9 @@
 <h3>1. Structure</h3>
 시작하기에 앞서, MVC 패턴을 다음과 같은 그림으로 표현할 수 있다.
 <br><br>
+
 ![MVC](https://github.com/IIIBreakeRIII/IIIBreakeRIII.github.io/assets/89850286/3b081d88-49a0-4a3b-aab3-47c50a66acb7)
+
 <br><br>
 
 1.1. Model
