@@ -31,6 +31,7 @@
  - 사용자가 편집하기를 원하는 모든 데이터를 가져야 한다. 
  - 뷰 또는 컨트롤러에 의존할 수 없다.
 
+<br>
 <h4>1.2. View</h4>
 
 > User에게 보여지는 User Interface를 의미
@@ -45,11 +46,35 @@
  - 모델이 갖는 정보를 저장하면 안된다.
  - 모델에만 의존해야하고, 컨트롤러에게는 의존하면 안된다.
 
+<br>
 <h4>1.3. Controller</h4>
 
 > User의 Input에 따라 Model 또는 View를 업데이트하는 로직을 갖는 Component
 
 모델과 뷰 사이를 이어주는 다리 역할을 한다. 변경 사항에 대해서 수신과 발신의 역할만 하며, 모델과 뷰로부터 수정 사항이 들어오면 이를 각각의 구성 요소에게 전달해준다.
 <br><br>
-해당하는 레포지토리에서 뷰는 [`lib > controller > number_controller.dart`](https://github.com/IIIBreakeRIII/mvc_pattern_exercise/tree/main/lib/controller)경로하는 해당하는 파일이다.
+해당하는 레포지토리에서 컨트롤러는 [`lib > controller > number_controller.dart`](https://github.com/IIIBreakeRIII/mvc_pattern_exercise/tree/main/lib/controller)경로에 해당하는 파일이다.
 <br><br>
+`number_view`에서 `incrementNum`, `decrementNum`, `resetNum`을 호출하면, `number_controller`에서는 해당 명령을 받는다. 동시에 `number`모델로 해당하는 작업의 수행을 전달하게 된다.
+<br><br>
+컨트롤러의 규칙은 다음과 같다.
+ - 모델이나 뷰에 대해서 알고 있어야 한다.
+ - 모델과 뷰의 변경을 모니터링 해야 한다.
+<br><br>
+
+<h3>2. Standard</h3>
+MVC 패턴은 5가지의 규칙에 의해 설계되어야 한다. 해당하는 5가지의 규칙은 다음과 같다.
+
+<br>
+<h4>2.1. Model은 Controller와 View에 의존하지 않아야 한다.</h4>
+<h4>2.2. View는 Model에만 의존해야하고, Controller에는 의존하면 안된다.</h4>
+<h4>2.3. View가 Model로부터 데이터를 받을 때는, 사용자마다 다르게 보여주어야하는 데이터만 받아야 한다.</h4>
+<h4>2.4. Controller는 Model과 View에 의존해도 된다.</h4>
+<h4>2.5. View가 Model로부터 데이터를 받을 때, 반드시 Controller를 통해서 받아야 한다.</h4>
+
+<h3>. Reference</h3>
+ - [MVC Pattern](https://junhyunny.github.io/information/design-pattern/mvc-pattern/)
+ - [[Flutter] MVC 디자인 패턴](https://velog.io/@hodu_angel/Flutter-MVC-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)
+ - [mdn web docs, MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+ - [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+ - [MVC 패턴이 지켜지는 5가지 규칙](https://hyeon9mak.github.io/5-rules-for-MVC-pattern/)
